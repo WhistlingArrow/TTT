@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TTT/WWW/*.{h,m,mm,c}"\
+  s.source_files  = "TTT/TTT/*.{h,m,mm,c}"\
                     "WWW/WWW/*.{h,m,mm,c}"
   # s.exclude_files = "Classes/Exclude"
 
