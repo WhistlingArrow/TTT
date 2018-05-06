@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E44BFF05209EE95900B3406D /* TTT.h in Headers */ = {isa = PBXBuildFile; fileRef = E44BFF03209EE95900B3406D /* TTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BFF30209EEA7E00B3406D /* TTTTestAClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E44BFF2E209EEA7E00B3406D /* TTTTestAClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BFF31209EEA7E00B3406D /* TTTTestAClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E44BFF2F209EEA7E00B3406D /* TTTTestAClass.m */; };
+		E44BFF35209EEB0000B3406D /* TTTTestBClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E44BFF33209EEB0000B3406D /* TTTTestBClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BFF36209EEB0000B3406D /* TTTTestBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E44BFF34209EEB0000B3406D /* TTTTestBClass.m */; };
+		E44BFF40209EEB4700B3406D /* WWW.h in Headers */ = {isa = PBXBuildFile; fileRef = E44BFF3E209EEB4700B3406D /* WWW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BFF48209EEB8100B3406D /* WWWTestAClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E44BFF46209EEB8100B3406D /* WWWTestAClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BFF49209EEB8100B3406D /* WWWTestAClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E44BFF47209EEB8100B3406D /* WWWTestAClass.m */; };
+		E44BFF4C209EEBB600B3406D /* WWWTestBClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E44BFF4A209EEBB600B3406D /* WWWTestBClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BFF4D209EEBB600B3406D /* WWWTestBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E44BFF4B209EEBB600B3406D /* WWWTestBClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E44BFF00209EE95900B3406D /* TTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44BFF03209EE95900B3406D /* TTT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTT.h; sourceTree = "<group>"; };
+		E44BFF04209EE95900B3406D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44BFF2E209EEA7E00B3406D /* TTTTestAClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTTestAClass.h; sourceTree = "<group>"; };
+		E44BFF2F209EEA7E00B3406D /* TTTTestAClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTTestAClass.m; sourceTree = "<group>"; };
+		E44BFF33209EEB0000B3406D /* TTTTestBClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTTestBClass.h; sourceTree = "<group>"; };
+		E44BFF34209EEB0000B3406D /* TTTTestBClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTTestBClass.m; sourceTree = "<group>"; };
+		E44BFF3C209EEB4700B3406D /* WWW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44BFF3E209EEB4700B3406D /* WWW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWW.h; sourceTree = "<group>"; };
+		E44BFF3F209EEB4700B3406D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44BFF46209EEB8100B3406D /* WWWTestAClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWTestAClass.h; sourceTree = "<group>"; };
+		E44BFF47209EEB8100B3406D /* WWWTestAClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWTestAClass.m; sourceTree = "<group>"; };
+		E44BFF4A209EEBB600B3406D /* WWWTestBClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWTestBClass.h; sourceTree = "<group>"; };
+		E44BFF4B209EEBB600B3406D /* WWWTestBClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWTestBClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44BFEFC209EE95900B3406D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BFF38209EEB4700B3406D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44BFEF6209EE95900B3406D = {
+			isa = PBXGroup;
+			children = (
+				E44BFF02209EE95900B3406D /* TTT */,
+				E44BFF3D209EEB4700B3406D /* WWW */,
+				E44BFF01209EE95900B3406D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E44BFF01209EE95900B3406D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF00209EE95900B3406D /* TTT.framework */,
+				E44BFF3C209EEB4700B3406D /* WWW.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44BFF02209EE95900B3406D /* TTT */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF2D209EEA5A00B3406D /* TestA */,
+				E44BFF32209EEAEE00B3406D /* TestB */,
+				E44BFF03209EE95900B3406D /* TTT.h */,
+				E44BFF04209EE95900B3406D /* Info.plist */,
+			);
+			path = TTT;
+			sourceTree = "<group>";
+		};
+		E44BFF2D209EEA5A00B3406D /* TestA */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF2E209EEA7E00B3406D /* TTTTestAClass.h */,
+				E44BFF2F209EEA7E00B3406D /* TTTTestAClass.m */,
+			);
+			path = TestA;
+			sourceTree = "<group>";
+		};
+		E44BFF32209EEAEE00B3406D /* TestB */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF33209EEB0000B3406D /* TTTTestBClass.h */,
+				E44BFF34209EEB0000B3406D /* TTTTestBClass.m */,
+			);
+			path = TestB;
+			sourceTree = "<group>";
+		};
+		E44BFF3D209EEB4700B3406D /* WWW */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF44209EEB5A00B3406D /* TestA */,
+				E44BFF45209EEB6400B3406D /* TestB */,
+				E44BFF3E209EEB4700B3406D /* WWW.h */,
+				E44BFF3F209EEB4700B3406D /* Info.plist */,
+			);
+			path = WWW;
+			sourceTree = "<group>";
+		};
+		E44BFF44209EEB5A00B3406D /* TestA */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF46209EEB8100B3406D /* WWWTestAClass.h */,
+				E44BFF47209EEB8100B3406D /* WWWTestAClass.m */,
+			);
+			path = TestA;
+			sourceTree = "<group>";
+		};
+		E44BFF45209EEB6400B3406D /* TestB */ = {
+			isa = PBXGroup;
+			children = (
+				E44BFF4A209EEBB600B3406D /* WWWTestBClass.h */,
+				E44BFF4B209EEBB600B3406D /* WWWTestBClass.m */,
+			);
+			path = TestB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E44BFEFD209EE95900B3406D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44BFF05209EE95900B3406D /* TTT.h in Headers */,
+				E44BFF35209EEB0000B3406D /* TTTTestBClass.h in Headers */,
+				E44BFF30209EEA7E00B3406D /* TTTTestAClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BFF39209EEB4700B3406D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44BFF40209EEB4700B3406D /* WWW.h in Headers */,
+				E44BFF48209EEB8100B3406D /* WWWTestAClass.h in Headers */,
+				E44BFF4C209EEBB600B3406D /* WWWTestBClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E44BFEFF209EE95900B3406D /* TTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44BFF08209EE95900B3406D /* Build configuration list for PBXNativeTarget "TTT" */;
+			buildPhases = (
+				E44BFEFB209EE95900B3406D /* Sources */,
+				E44BFEFC209EE95900B3406D /* Frameworks */,
+				E44BFEFD209EE95900B3406D /* Headers */,
+				E44BFEFE209EE95900B3406D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTT;
+			productName = TTT;
+			productReference = E44BFF00209EE95900B3406D /* TTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E44BFF3B209EEB4700B3406D /* WWW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44BFF41209EEB4700B3406D /* Build configuration list for PBXNativeTarget "WWW" */;
+			buildPhases = (
+				E44BFF37209EEB4700B3406D /* Sources */,
+				E44BFF38209EEB4700B3406D /* Frameworks */,
+				E44BFF39209EEB4700B3406D /* Headers */,
+				E44BFF3A209EEB4700B3406D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWW;
+			productName = WWW;
+			productReference = E44BFF3C209EEB4700B3406D /* WWW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44BFEF7209EE95900B3406D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Ron;
+				TargetAttributes = {
+					E44BFEFF209EE95900B3406D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E44BFF3B209EEB4700B3406D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E44BFEFA209EE95900B3406D /* Build configuration list for PBXProject "TTT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E44BFEF6209EE95900B3406D;
+			productRefGroup = E44BFF01209EE95900B3406D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44BFEFF209EE95900B3406D /* TTT */,
+				E44BFF3B209EEB4700B3406D /* WWW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44BFEFE209EE95900B3406D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BFF3A209EEB4700B3406D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44BFEFB209EE95900B3406D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44BFF36209EEB0000B3406D /* TTTTestBClass.m in Sources */,
+				E44BFF31209EEA7E00B3406D /* TTTTestAClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BFF37209EEB4700B3406D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44BFF49209EEB8100B3406D /* WWWTestAClass.m in Sources */,
+				E44BFF4D209EEBB600B3406D /* WWWTestBClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E44BFF06209EE95900B3406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E44BFF07209EE95900B3406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E44BFF09209EE95900B3406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4S68FLC2TS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TTT/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Youku.TTT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44BFF0A209EE95900B3406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4S68FLC2TS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TTT/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Youku.TTT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E44BFF42209EEB4700B3406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4S68FLC2TS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WWW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Youku.WWW;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44BFF43209EEB4700B3406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4S68FLC2TS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WWW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Youku.WWW;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44BFEFA209EE95900B3406D /* Build configuration list for PBXProject "TTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BFF06209EE95900B3406D /* Debug */,
+				E44BFF07209EE95900B3406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44BFF08209EE95900B3406D /* Build configuration list for PBXNativeTarget "TTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BFF09209EE95900B3406D /* Debug */,
+				E44BFF0A209EE95900B3406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44BFF41209EEB4700B3406D /* Build configuration list for PBXNativeTarget "WWW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BFF42209EEB4700B3406D /* Debug */,
+				E44BFF43209EEB4700B3406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44BFEF7209EE95900B3406D /* Project object */;
+}
